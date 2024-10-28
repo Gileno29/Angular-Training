@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import './logo/logo.component'
+import { LogoComponent } from './logo/logo.component';
 
 @Component({
   selector: 'app-root',
