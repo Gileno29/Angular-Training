@@ -1,7 +1,21 @@
+.logo {
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a logo */
+}
 
 
-
-p{
-    color: brown;
-    border-color: aqua;
+button#trocarLogo {
+  background-color: #4CAF50; /* Verde */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 12px;
 }

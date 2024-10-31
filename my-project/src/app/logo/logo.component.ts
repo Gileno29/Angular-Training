@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './logo.component.css'
 })
 export class LogoComponent {
-
+  
 }

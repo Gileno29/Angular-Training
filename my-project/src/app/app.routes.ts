@@ -3,7 +3,7 @@ import { LogoComponent } from './logo/logo.component';
 
 export const routes: Routes = [
     {
-        path: '',
+        path: 'logo',
         component: LogoComponent,
     }
 ];
