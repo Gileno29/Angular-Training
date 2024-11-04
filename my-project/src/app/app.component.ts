@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, VERSION } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import './logo/logo.component'
 import { LogoComponent } from './logo/logo.component';
@@ -12,4 +12,5 @@ import { LogoComponent } from './logo/logo.component';
 })
 export class AppComponent {
   title = 'my-project';
+  name = 'Angular' +  VERSION.major;
 }
